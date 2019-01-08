@@ -15,7 +15,11 @@ public class App {
 	public static void main(String[] args) {
 
 		Logger logger = LoggerFactory.getLogger(App.class);
-		logger.info("Hello World");
+
+
+
+
+		logger.debug("processing App");
 
 		File file = new File("scrData.csv");
 
@@ -30,7 +34,7 @@ public class App {
 		Person person = null;
 		int i = 1;
 		try {
-
+			logger.info("reading the file");
 			br = new BufferedReader(new FileReader(file));
 			br.readLine();
 
@@ -38,6 +42,7 @@ public class App {
 
 				i++;
 				try {
+
 					String[] values = str.split(",");
 
 					person = new Person();
@@ -51,12 +56,12 @@ public class App {
 					cityPer = ageMap.get(person.getCity());
 
 				} catch (NumberFormatException e) {
-
+					logger.error("error reading file. Message:  " +e.getMessage());
 					System.out.println("Data input error at line: " +i);
 					continue;
 
 				} catch (ArrayIndexOutOfBoundsException e) {
-
+					logger.error("error reading file. Message:  " +e.getMessage());
 					System.out.println("Data input error at line: " +i);
 					continue;
 				}
@@ -86,13 +91,15 @@ public class App {
 			System.out.println("Unable to read file");
 
 		} finally {
-
+			logger.info("file" + file.toString() +"read succesfull");
 			try {
 
 				br.close();
-			} catch (IOException e) {
 
-				System.out.println();
+
+			} catch (IOException e) {
+				logger.error("error reading file. Message:  " +e.getMessage());
+				System.out.println(e);
 
 			}
 
