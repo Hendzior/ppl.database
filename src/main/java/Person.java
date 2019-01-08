@@ -1,3 +1,6 @@
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class Person implements Comparable<Person> {
 
 private	String firstName;
@@ -7,8 +10,10 @@ private	int age;
 private	String city;
 	@Override
 	public String toString() {
+
 		return "Person [firstName=" + firstName + ", lastName=" + lastName + ", gender=" + gender + ", age=" + age
 				+ ", city=" + city + "]";
+
 	}
 	public String getFirstName() {
 		return firstName;
