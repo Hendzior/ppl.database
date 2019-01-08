@@ -4,3 +4,9 @@
 08-01-2019 22:01:29 ERROR App:64 - error reading file. Message:  1
 08-01-2019 22:01:29 ERROR App:64 - error reading file. Message:  1
 08-01-2019 22:01:29 INFO  App:94 - filescrData.csvread succesfull
+08-01-2019 22:10:40 DEBUG App:22 - processing App
+08-01-2019 22:10:40 INFO  App:37 - reading the file
+08-01-2019 22:10:40 ERROR App:59 - error reading file. Message:  For input string: " ŻLE"
+08-01-2019 22:10:40 ERROR App:64 - error reading file. Message:  1
+08-01-2019 22:10:40 ERROR App:64 - error reading file. Message:  1
+08-01-2019 22:10:40 INFO  App:94 - filescrData.csvread succesfull
