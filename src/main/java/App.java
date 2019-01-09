@@ -12,16 +12,14 @@ import org.slf4j.LoggerFactory;
 
 public class App {
 
+	private static final Logger logger = LoggerFactory.getLogger(App.class);
+	
 	public static void main(String[] args) {
 
-		Logger logger = LoggerFactory.getLogger(App.class);
-
-
-
-
-		logger.debug("processing App");
-
-		File file = new File("scrData.csv");
+		logger.info("Starting App");
+		
+		String fileName = "scrData.csv";
+		File file = new File(fileName);
 
 		String str;
 
@@ -34,7 +32,7 @@ public class App {
 		Person person = null;
 		int i = 1;
 		try {
-			logger.info("reading the file");
+			logger.info("reading the file: {}", fileName);
 			br = new BufferedReader(new FileReader(file));
 			br.readLine();
 
@@ -42,7 +40,7 @@ public class App {
 
 				i++;
 				try {
-
+					logger.debug("{} row: {}", i, str);
 					String[] values = str.split(",");
 
 					person = new Person();
@@ -56,13 +54,11 @@ public class App {
 					cityPer = ageMap.get(person.getCity());
 
 				} catch (NumberFormatException e) {
-					logger.error("error reading file. Message:  " +e.getMessage());
-					System.out.println("Data input error at line: " +i);
+					logger.error("error reading row {}. Message: {}", i, e.getMessage());
 					continue;
 
 				} catch (ArrayIndexOutOfBoundsException e) {
 					logger.error("error reading file. Message:  " +e.getMessage());
-					System.out.println("Data input error at line: " +i);
 					continue;
 				}
 
@@ -78,9 +74,7 @@ public class App {
 
 					cityPer.setMax(person.getAge());
 
-				}
-
-				else if (cityPer.getMin() > person.getAge()) {
+				} else if (cityPer.getMin() > person.getAge()) {
 					cityPer.setMin(person.getAge());
 
 				}
@@ -88,18 +82,17 @@ public class App {
 			}
 
 		} catch (IOException e) {
-			System.out.println("Unable to read file");
+			logger.error("error while reading", e);
 
 		} finally {
-			logger.info("file" + file.toString() +"read succesfull");
+			logger.info("file {} read succesfully", fileName);
 			try {
 
 				br.close();
 
 
 			} catch (IOException e) {
-				logger.error("error reading file. Message:  " +e.getMessage());
-				System.out.println(e);
+				logger.error("error while closing file", e);
 
 			}
 
@@ -131,12 +124,12 @@ public class App {
 		}
 
 		Collections.sort(lname);
-		System.out.println("Last Names (alphabetical order): " + lname);
-		System.out.println("Average age of all people: " + sum / age.size());
-		System.out.println("Number of males: " + male);
-		System.out.println("Number of females: " + female);
+		logger.info("Last Names (alphabetical order): {}", lname);
+		logger.info("Average age of all people: {}", sum / age.size());
+		logger.info("Number of males: {}", male);
+		logger.info("Number of females: {}", female);
 
-		System.out.println(ageMap);
+		logger.info(ageMap);
 
 	}
 
