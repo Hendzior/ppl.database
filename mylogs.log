@@ -10,3 +10,1638 @@
 08-01-2019 22:10:40 ERROR App:64 - error reading file. Message:  1
 08-01-2019 22:10:40 ERROR App:64 - error reading file. Message:  1
 08-01-2019 22:10:40 INFO  App:94 - filescrData.csvread succesfull
+09-01-2019 13:16:01 INFO  App:19 - Starting App
+09-01-2019 13:16:01 INFO  App:35 - reading the file: scrData.csv
+09-01-2019 13:16:01 DEBUG App:43 - 2 row: Jan,Kowalski,male,20,Jaświły
+09-01-2019 13:16:01 DEBUG App:43 - 3 row: Ala,Bzyk,female,27,Paris
+09-01-2019 13:16:01 DEBUG App:43 - 4 row: Heniek,Bobek,male,19,Trypucie
+09-01-2019 13:16:01 DEBUG App:43 - 5 row: Ryszard,Ostry,male,31,Jaświły
+09-01-2019 13:16:01 DEBUG App:43 - 6 row: Kloszard,Bum,male,44,Trypucie
+09-01-2019 13:16:01 DEBUG App:43 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+09-01-2019 13:16:01 ERROR App:57 - error reading row 7. Message: For input string: " ŻLE"
+09-01-2019 13:16:01 DEBUG App:43 - 8 row: Wacław,Kowalski,male,22,Michałowo
+09-01-2019 13:16:01 DEBUG App:43 - 9 row: Janek,Nowak,male,30,Warszawa
+09-01-2019 13:16:01 DEBUG App:43 - 10 row: 
+09-01-2019 13:16:01 ERROR App:61 - error reading file. Message:  1
+09-01-2019 13:16:01 DEBUG App:43 - 11 row: dfbxbxd
+09-01-2019 13:16:01 ERROR App:61 - error reading file. Message:  1
+09-01-2019 13:16:01 INFO  App:88 - file scrData.csv read succesfully
+09-01-2019 13:16:01 INFO  App:127 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+09-01-2019 13:16:01 INFO  App:128 - Average age of all people: 27
+09-01-2019 13:16:01 INFO  App:129 - Number of males: 6
+09-01-2019 13:16:01 INFO  App:130 - Number of females: 1
+09-01-2019 13:17:56 INFO  App:19 - Starting App
+09-01-2019 13:17:56 INFO  App:35 - reading the file: scrData.csv
+09-01-2019 13:17:56 DEBUG App:43 - 2 row: Jan,Kowalski,male,20,Jaświły
+09-01-2019 13:17:56 DEBUG App:43 - 3 row: Ala,Bzyk,female,27,Paris
+09-01-2019 13:17:56 DEBUG App:43 - 4 row: Heniek,Bobek,male,19,Trypucie
+09-01-2019 13:17:56 DEBUG App:43 - 5 row: Ryszard,Ostry,male,31,Jaświły
+09-01-2019 13:17:56 DEBUG App:43 - 6 row: Kloszard,Bum,male,44,Trypucie
+09-01-2019 13:17:56 DEBUG App:43 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+09-01-2019 13:17:56 ERROR App:57 - error reading row 7. Message: For input string: " ŻLE"
+09-01-2019 13:17:56 DEBUG App:43 - 8 row: Wacław,Kowalski,male,22,Michałowo
+09-01-2019 13:17:56 DEBUG App:43 - 9 row: Janek,Nowak,male,30,Warszawa
+09-01-2019 13:17:56 DEBUG App:43 - 10 row: 
+09-01-2019 13:17:56 ERROR App:61 - error reading file. Message:  1
+09-01-2019 13:17:56 DEBUG App:43 - 11 row: dfbxbxd
+09-01-2019 13:17:56 ERROR App:61 - error reading file. Message:  1
+09-01-2019 13:17:56 INFO  App:88 - file scrData.csv read succesfully
+09-01-2019 13:17:56 INFO  App:127 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+09-01-2019 13:17:56 INFO  App:128 - Average age of all people: 27
+09-01-2019 13:17:56 INFO  App:129 - Number of males: 6
+09-01-2019 13:17:56 INFO  App:130 - Number of females: 1
+09-01-2019 13:17:56 INFO  App:132 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+16-01-2019 21:13:15 INFO  App:20 - Starting App
+16-01-2019 21:13:15 INFO  App:36 - reading the file: scrData.csv
+16-01-2019 21:13:15 DEBUG App:44 - 2 row: Jan,Kowalski,male,20,Jaświły
+16-01-2019 21:13:15 DEBUG App:44 - 3 row: Ala,Bzyk,female,27,Paris
+16-01-2019 21:13:15 DEBUG App:44 - 4 row: Heniek,Bobek,male,19,Trypucie
+16-01-2019 21:13:15 DEBUG App:44 - 5 row: Ryszard,Ostry,male,31,Jaświły
+16-01-2019 21:13:15 DEBUG App:44 - 6 row: Kloszard,Bum,male,44,Trypucie
+16-01-2019 21:13:15 DEBUG App:44 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+16-01-2019 21:13:15 ERROR App:58 - error reading row 7. Message: For input string: " ŻLE"
+16-01-2019 21:13:15 DEBUG App:44 - 8 row: Wacław,Kowalski,male,22,Michałowo
+16-01-2019 21:13:15 DEBUG App:44 - 9 row: Janek,Nowak,male,30,Warszawa
+16-01-2019 21:13:15 DEBUG App:44 - 10 row: 
+16-01-2019 21:13:15 ERROR App:62 - error reading file. Message:  1
+16-01-2019 21:13:15 DEBUG App:44 - 11 row: dfbxbxd
+16-01-2019 21:13:15 ERROR App:62 - error reading file. Message:  1
+16-01-2019 21:13:15 INFO  App:89 - file scrData.csv read succesfully
+16-01-2019 21:13:15 INFO  App:128 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+16-01-2019 21:13:15 INFO  App:129 - Average age of all people: 27
+16-01-2019 21:13:15 INFO  App:130 - Number of males: 6
+16-01-2019 21:13:15 INFO  App:131 - Number of females: 1
+16-01-2019 21:13:15 INFO  App:133 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+18-01-2019 14:11:34 INFO  App:20 - Starting App
+18-01-2019 14:11:34 INFO  App:36 - reading the file: scrData.csv
+18-01-2019 14:11:34 DEBUG App:44 - 2 row: Jan,Kowalski,male,20,Jaświły
+18-01-2019 14:11:34 DEBUG App:44 - 3 row: Ala,Bzyk,female,27,Paris
+18-01-2019 14:11:34 DEBUG App:44 - 4 row: Heniek,Bobek,male,19,Trypucie
+18-01-2019 14:11:34 DEBUG App:44 - 5 row: Ryszard,Ostry,male,31,Jaświły
+18-01-2019 14:11:34 DEBUG App:44 - 6 row: Kloszard,Bum,male,44,Trypucie
+18-01-2019 14:11:34 DEBUG App:44 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+18-01-2019 14:11:34 ERROR App:58 - error reading row 7. Message: For input string: " ŻLE"
+18-01-2019 14:11:34 DEBUG App:44 - 8 row: Wacław,Kowalski,male,22,Michałowo
+18-01-2019 14:11:34 DEBUG App:44 - 9 row: Janek,Nowak,male,30,Warszawa
+18-01-2019 14:11:34 DEBUG App:44 - 10 row: 
+18-01-2019 14:11:34 ERROR App:62 - error reading file. Message:  1
+18-01-2019 14:11:34 DEBUG App:44 - 11 row: dfbxbxd
+18-01-2019 14:11:34 ERROR App:62 - error reading file. Message:  1
+18-01-2019 14:11:34 INFO  App:89 - file scrData.csv read succesfully
+18-01-2019 14:11:34 INFO  App:128 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+18-01-2019 14:11:34 INFO  App:129 - Average age of all people: 27
+18-01-2019 14:11:34 INFO  App:130 - Number of males: 6
+18-01-2019 14:11:34 INFO  App:131 - Number of females: 1
+18-01-2019 14:11:34 INFO  App:133 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+18-01-2019 14:14:08 INFO  App:22 - Starting App
+18-01-2019 14:14:08 INFO  App:38 - reading the file: scrData.csv
+18-01-2019 14:14:08 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+18-01-2019 14:14:08 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+18-01-2019 14:14:08 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+18-01-2019 14:14:08 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+18-01-2019 14:14:08 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+18-01-2019 14:14:08 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+18-01-2019 14:14:08 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+18-01-2019 14:14:08 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+18-01-2019 14:14:08 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+18-01-2019 14:14:08 DEBUG App:46 - 10 row: 
+18-01-2019 14:14:08 ERROR App:64 - error reading file. Message:  1
+18-01-2019 14:14:08 DEBUG App:46 - 11 row: dfbxbxd
+18-01-2019 14:14:08 ERROR App:64 - error reading file. Message:  1
+18-01-2019 14:14:08 INFO  App:91 - file scrData.csv read succesfully
+18-01-2019 14:14:08 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+18-01-2019 14:14:08 INFO  App:131 - Average age of all people: 27
+18-01-2019 14:14:08 INFO  App:132 - Number of males: 6
+18-01-2019 14:14:08 INFO  App:133 - Number of females: 1
+18-01-2019 14:14:08 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+18-01-2019 15:55:24 INFO  App:22 - Starting App
+18-01-2019 15:55:24 INFO  App:38 - reading the file: scrData.csv
+18-01-2019 15:55:24 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+18-01-2019 15:55:24 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+18-01-2019 15:55:24 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+18-01-2019 15:55:24 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+18-01-2019 15:55:24 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+18-01-2019 15:55:24 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+18-01-2019 15:55:24 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+18-01-2019 15:55:24 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+18-01-2019 15:55:24 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+18-01-2019 15:55:24 DEBUG App:46 - 10 row: 
+18-01-2019 15:55:24 ERROR App:64 - error reading file. Message:  1
+18-01-2019 15:55:24 DEBUG App:46 - 11 row: dfbxbxd
+18-01-2019 15:55:24 ERROR App:64 - error reading file. Message:  1
+18-01-2019 15:55:24 INFO  App:91 - file scrData.csv read succesfully
+18-01-2019 15:55:24 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+18-01-2019 15:55:24 INFO  App:131 - Average age of all people: 27
+18-01-2019 15:55:24 INFO  App:132 - Number of males: 6
+18-01-2019 15:55:24 INFO  App:133 - Number of females: 1
+18-01-2019 15:55:24 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+18-01-2019 15:58:40 INFO  App:22 - Starting App
+18-01-2019 15:58:40 INFO  App:38 - reading the file: scrData.csv
+18-01-2019 15:58:40 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+18-01-2019 15:58:40 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+18-01-2019 15:58:40 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+18-01-2019 15:58:40 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+18-01-2019 15:58:40 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+18-01-2019 15:58:40 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+18-01-2019 15:58:40 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+18-01-2019 15:58:40 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+18-01-2019 15:58:40 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+18-01-2019 15:58:40 DEBUG App:46 - 10 row: 
+18-01-2019 15:58:40 ERROR App:64 - error reading file. Message:  1
+18-01-2019 15:58:40 DEBUG App:46 - 11 row: dfbxbxd
+18-01-2019 15:58:40 ERROR App:64 - error reading file. Message:  1
+18-01-2019 15:58:40 INFO  App:91 - file scrData.csv read succesfully
+18-01-2019 15:58:40 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+18-01-2019 15:58:40 INFO  App:131 - Average age of all people: 27
+18-01-2019 15:58:40 INFO  App:132 - Number of males: 6
+18-01-2019 15:58:40 INFO  App:133 - Number of females: 1
+18-01-2019 15:58:40 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+18-01-2019 15:59:47 INFO  App:22 - Starting App
+18-01-2019 15:59:47 INFO  App:38 - reading the file: scrData.csv
+18-01-2019 15:59:47 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+18-01-2019 15:59:47 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+18-01-2019 15:59:47 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+18-01-2019 15:59:47 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+18-01-2019 15:59:47 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+18-01-2019 15:59:47 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+18-01-2019 15:59:47 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+18-01-2019 15:59:47 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+18-01-2019 15:59:47 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+18-01-2019 15:59:47 DEBUG App:46 - 10 row: 
+18-01-2019 15:59:47 ERROR App:64 - error reading file. Message:  1
+18-01-2019 15:59:47 DEBUG App:46 - 11 row: dfbxbxd
+18-01-2019 15:59:47 ERROR App:64 - error reading file. Message:  1
+18-01-2019 15:59:47 INFO  App:91 - file scrData.csv read succesfully
+18-01-2019 15:59:47 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+18-01-2019 15:59:47 INFO  App:131 - Average age of all people: 27
+18-01-2019 15:59:47 INFO  App:132 - Number of males: 6
+18-01-2019 15:59:47 INFO  App:133 - Number of females: 1
+18-01-2019 15:59:47 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+18-01-2019 16:03:03 INFO  App:22 - Starting App
+18-01-2019 16:03:03 INFO  App:38 - reading the file: scrData.csv
+18-01-2019 16:03:03 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+18-01-2019 16:03:03 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+18-01-2019 16:03:03 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+18-01-2019 16:03:03 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+18-01-2019 16:03:03 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+18-01-2019 16:03:03 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+18-01-2019 16:03:03 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+18-01-2019 16:03:03 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+18-01-2019 16:03:03 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+18-01-2019 16:03:03 DEBUG App:46 - 10 row: 
+18-01-2019 16:03:03 ERROR App:64 - error reading file. Message:  1
+18-01-2019 16:03:03 DEBUG App:46 - 11 row: dfbxbxd
+18-01-2019 16:03:03 ERROR App:64 - error reading file. Message:  1
+18-01-2019 16:03:03 INFO  App:91 - file scrData.csv read succesfully
+18-01-2019 16:03:03 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+18-01-2019 16:03:03 INFO  App:131 - Average age of all people: 27
+18-01-2019 16:03:03 INFO  App:132 - Number of males: 6
+18-01-2019 16:03:03 INFO  App:133 - Number of females: 1
+18-01-2019 16:03:03 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:10:40 INFO  App:22 - Starting App
+19-01-2019 00:10:40 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:10:40 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:10:40 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:10:40 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:10:40 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:10:40 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:10:40 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:10:40 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:10:40 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:10:40 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:10:40 DEBUG App:46 - 10 row: 
+19-01-2019 00:10:40 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:10:40 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:10:40 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:10:40 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:10:40 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:10:40 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:10:40 INFO  App:132 - Number of males: 6
+19-01-2019 00:10:40 INFO  App:133 - Number of females: 1
+19-01-2019 00:10:40 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:12:53 INFO  App:22 - Starting App
+19-01-2019 00:12:53 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:12:53 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:12:53 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:12:53 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:12:53 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:12:53 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:12:53 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:12:53 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:12:53 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:12:53 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:12:53 DEBUG App:46 - 10 row: 
+19-01-2019 00:12:53 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:12:53 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:12:53 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:12:53 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:12:53 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:12:53 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:12:53 INFO  App:132 - Number of males: 6
+19-01-2019 00:12:53 INFO  App:133 - Number of females: 1
+19-01-2019 00:12:53 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:17:36 INFO  App:22 - Starting App
+19-01-2019 00:17:36 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:17:36 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:17:36 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:17:36 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:17:36 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:17:36 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:17:36 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:17:36 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:17:36 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:17:36 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:17:36 DEBUG App:46 - 10 row: 
+19-01-2019 00:17:36 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:17:36 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:17:36 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:17:36 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:17:36 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:17:36 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:17:36 INFO  App:132 - Number of males: 6
+19-01-2019 00:17:36 INFO  App:133 - Number of females: 1
+19-01-2019 00:17:36 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:18:21 INFO  App:22 - Starting App
+19-01-2019 00:18:21 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:18:21 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:18:21 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:18:21 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:18:21 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:18:21 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:18:21 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:18:21 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:18:21 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:18:21 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:18:21 DEBUG App:46 - 10 row: 
+19-01-2019 00:18:21 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:18:21 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:18:21 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:18:21 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:18:21 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:18:21 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:18:21 INFO  App:132 - Number of males: 6
+19-01-2019 00:18:21 INFO  App:133 - Number of females: 1
+19-01-2019 00:18:21 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:20:07 INFO  App:22 - Starting App
+19-01-2019 00:20:07 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:20:07 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:20:07 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:20:07 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:20:07 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:20:07 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:20:07 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:20:07 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:20:07 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:20:07 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:20:07 DEBUG App:46 - 10 row: 
+19-01-2019 00:20:07 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:20:07 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:20:07 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:20:07 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:20:07 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:20:07 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:20:07 INFO  App:132 - Number of males: 6
+19-01-2019 00:20:07 INFO  App:133 - Number of females: 1
+19-01-2019 00:20:07 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:22:00 INFO  App:22 - Starting App
+19-01-2019 00:22:00 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:22:00 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:22:00 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:22:00 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:22:00 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:22:00 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:22:00 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:22:00 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:22:00 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:22:00 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:22:00 DEBUG App:46 - 10 row: 
+19-01-2019 00:22:00 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:22:00 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:22:00 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:22:00 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:22:00 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:22:00 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:22:00 INFO  App:132 - Number of males: 6
+19-01-2019 00:22:00 INFO  App:133 - Number of females: 1
+19-01-2019 00:22:00 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:23:14 INFO  App:22 - Starting App
+19-01-2019 00:23:14 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:23:14 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:23:14 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:23:14 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:23:14 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:23:14 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:23:14 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:23:14 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:23:14 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:23:14 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:23:14 DEBUG App:46 - 10 row: 
+19-01-2019 00:23:14 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:23:14 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:23:14 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:23:14 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:23:14 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:23:14 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:23:14 INFO  App:132 - Number of males: 6
+19-01-2019 00:23:14 INFO  App:133 - Number of females: 1
+19-01-2019 00:23:14 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:26:38 INFO  App:22 - Starting App
+19-01-2019 00:26:38 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:26:38 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:26:38 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:26:38 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:26:38 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:26:38 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:26:38 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:26:38 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:26:38 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:26:38 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:26:38 DEBUG App:46 - 10 row: 
+19-01-2019 00:26:38 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:26:38 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:26:38 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:26:38 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:26:38 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:26:38 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:26:38 INFO  App:132 - Number of males: 6
+19-01-2019 00:26:38 INFO  App:133 - Number of females: 1
+19-01-2019 00:26:38 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:26:59 INFO  App:22 - Starting App
+19-01-2019 00:26:59 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:26:59 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:26:59 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:26:59 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:26:59 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:26:59 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:26:59 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:26:59 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:26:59 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:26:59 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:26:59 DEBUG App:46 - 10 row: 
+19-01-2019 00:26:59 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:26:59 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:26:59 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:26:59 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:26:59 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:26:59 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:26:59 INFO  App:132 - Number of males: 6
+19-01-2019 00:26:59 INFO  App:133 - Number of females: 1
+19-01-2019 00:26:59 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:30:27 INFO  App:22 - Starting App
+19-01-2019 00:30:27 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:30:27 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:30:27 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:30:27 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:30:27 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:30:27 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:30:27 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:30:27 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:30:27 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:30:27 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:30:27 DEBUG App:46 - 10 row: 
+19-01-2019 00:30:27 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:30:27 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:30:27 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:30:27 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:30:27 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:30:27 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:30:27 INFO  App:132 - Number of males: 6
+19-01-2019 00:30:27 INFO  App:133 - Number of females: 1
+19-01-2019 00:30:27 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:31:40 INFO  App:22 - Starting App
+19-01-2019 00:31:40 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:31:40 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:31:40 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:31:40 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:31:40 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:31:40 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:31:40 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:31:40 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:31:40 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:31:40 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:31:40 DEBUG App:46 - 10 row: 
+19-01-2019 00:31:40 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:31:40 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:31:40 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:31:40 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:31:40 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:31:40 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:31:40 INFO  App:132 - Number of males: 6
+19-01-2019 00:31:40 INFO  App:133 - Number of females: 1
+19-01-2019 00:31:40 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:34:52 INFO  App:22 - Starting App
+19-01-2019 00:34:52 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:34:52 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:34:52 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:34:52 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:34:52 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:34:52 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:34:52 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:34:52 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:34:52 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:34:52 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:34:52 DEBUG App:46 - 10 row: 
+19-01-2019 00:34:52 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:34:52 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:34:52 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:34:52 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:34:52 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:34:52 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:34:52 INFO  App:132 - Number of males: 6
+19-01-2019 00:34:52 INFO  App:133 - Number of females: 1
+19-01-2019 00:34:52 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:35:30 INFO  App:22 - Starting App
+19-01-2019 00:35:30 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:35:30 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:35:30 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:35:30 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:35:30 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:35:30 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:35:30 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:35:30 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:35:30 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:35:30 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:35:30 DEBUG App:46 - 10 row: 
+19-01-2019 00:35:30 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:35:30 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:35:30 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:35:30 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:35:30 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:35:30 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:35:30 INFO  App:132 - Number of males: 6
+19-01-2019 00:35:30 INFO  App:133 - Number of females: 1
+19-01-2019 00:35:30 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:36:19 INFO  App:22 - Starting App
+19-01-2019 00:36:19 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:36:19 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:36:19 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:36:19 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:36:19 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:36:19 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:36:19 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:36:19 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:36:19 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:36:19 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:36:19 DEBUG App:46 - 10 row: 
+19-01-2019 00:36:19 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:36:19 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:36:19 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:36:19 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:36:19 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:36:19 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:36:19 INFO  App:132 - Number of males: 6
+19-01-2019 00:36:19 INFO  App:133 - Number of females: 1
+19-01-2019 00:36:19 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:37:09 INFO  App:22 - Starting App
+19-01-2019 00:37:09 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:37:09 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:37:09 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:37:09 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:37:09 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:37:09 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:37:09 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:37:09 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:37:09 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:37:09 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:37:09 DEBUG App:46 - 10 row: 
+19-01-2019 00:37:09 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:37:09 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:37:09 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:37:09 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:37:09 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:37:09 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:37:09 INFO  App:132 - Number of males: 6
+19-01-2019 00:37:09 INFO  App:133 - Number of females: 1
+19-01-2019 00:37:09 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:39:17 INFO  App:22 - Starting App
+19-01-2019 00:39:17 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:39:17 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:39:17 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:39:17 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:39:17 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:39:17 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:39:17 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:39:17 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:39:17 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:39:17 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:39:17 DEBUG App:46 - 10 row: 
+19-01-2019 00:39:17 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:39:17 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:39:17 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:39:17 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:39:17 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:39:17 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:39:17 INFO  App:132 - Number of males: 6
+19-01-2019 00:39:17 INFO  App:133 - Number of females: 1
+19-01-2019 00:39:17 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:39:37 INFO  App:22 - Starting App
+19-01-2019 00:39:37 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:39:37 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:39:37 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:39:37 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:39:37 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:39:37 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:39:37 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:39:37 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:39:37 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:39:37 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:39:37 DEBUG App:46 - 10 row: 
+19-01-2019 00:39:37 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:39:37 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:39:37 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:39:37 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:39:37 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:39:37 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:39:37 INFO  App:132 - Number of males: 6
+19-01-2019 00:39:37 INFO  App:133 - Number of females: 1
+19-01-2019 00:39:37 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:44:12 INFO  App:22 - Starting App
+19-01-2019 00:44:12 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:44:12 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:44:12 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:44:12 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:44:12 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:44:12 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:44:12 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:44:12 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:44:12 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:44:12 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:44:12 DEBUG App:46 - 10 row: 
+19-01-2019 00:44:12 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:44:12 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:44:12 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:44:12 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:44:12 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:44:12 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:44:12 INFO  App:132 - Number of males: 6
+19-01-2019 00:44:12 INFO  App:133 - Number of females: 1
+19-01-2019 00:44:12 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:44:28 INFO  App:22 - Starting App
+19-01-2019 00:44:28 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:44:28 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:44:28 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:44:28 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:44:28 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:44:28 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:44:28 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:44:28 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:44:28 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:44:28 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:44:28 DEBUG App:46 - 10 row: 
+19-01-2019 00:44:28 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:44:28 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:44:28 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:44:28 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:44:28 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:44:28 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:44:28 INFO  App:132 - Number of males: 6
+19-01-2019 00:44:28 INFO  App:133 - Number of females: 1
+19-01-2019 00:44:28 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:45:19 INFO  App:22 - Starting App
+19-01-2019 00:45:19 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:45:19 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:45:19 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:45:19 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:45:19 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:45:19 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:45:19 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:45:19 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:45:19 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:45:19 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:45:19 DEBUG App:46 - 10 row: 
+19-01-2019 00:45:19 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:45:19 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:45:19 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:45:19 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:45:19 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:45:19 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:45:19 INFO  App:132 - Number of males: 6
+19-01-2019 00:45:19 INFO  App:133 - Number of females: 1
+19-01-2019 00:45:19 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:46:27 INFO  App:22 - Starting App
+19-01-2019 00:46:27 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:46:27 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:46:27 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:46:27 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:46:27 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:46:27 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:46:27 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:46:27 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:46:27 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:46:27 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:46:27 DEBUG App:46 - 10 row: 
+19-01-2019 00:46:27 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:46:27 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:46:27 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:46:27 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:46:27 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:46:27 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:46:27 INFO  App:132 - Number of males: 6
+19-01-2019 00:46:27 INFO  App:133 - Number of females: 1
+19-01-2019 00:46:27 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:47:15 INFO  App:22 - Starting App
+19-01-2019 00:47:15 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:47:15 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:47:15 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:47:15 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:47:15 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:47:15 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:47:15 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:47:15 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:47:15 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:47:15 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:47:15 DEBUG App:46 - 10 row: 
+19-01-2019 00:47:15 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:47:15 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:47:15 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:47:15 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:47:15 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:47:15 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:47:15 INFO  App:132 - Number of males: 6
+19-01-2019 00:47:15 INFO  App:133 - Number of females: 1
+19-01-2019 00:47:15 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 00:51:32 INFO  App:22 - Starting App
+19-01-2019 00:51:32 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 00:51:32 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 00:51:32 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 00:51:32 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 00:51:32 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 00:51:32 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 00:51:32 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 00:51:32 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 00:51:32 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 00:51:32 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 00:51:32 DEBUG App:46 - 10 row: 
+19-01-2019 00:51:32 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:51:32 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 00:51:32 ERROR App:64 - error reading file. Message:  1
+19-01-2019 00:51:32 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 00:51:32 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 00:51:32 INFO  App:131 - Average age of all people: 27
+19-01-2019 00:51:32 INFO  App:132 - Number of males: 6
+19-01-2019 00:51:32 INFO  App:133 - Number of females: 1
+19-01-2019 00:51:32 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 10:26:12 INFO  App:22 - Starting App
+19-01-2019 10:26:12 INFO  App:38 - reading the file: scrData.csv
+19-01-2019 10:26:12 DEBUG App:46 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 10:26:12 DEBUG App:46 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 10:26:12 DEBUG App:46 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 10:26:12 DEBUG App:46 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 10:26:12 DEBUG App:46 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 10:26:12 DEBUG App:46 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 10:26:12 ERROR App:60 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 10:26:12 DEBUG App:46 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 10:26:12 DEBUG App:46 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 10:26:12 DEBUG App:46 - 10 row: 
+19-01-2019 10:26:12 ERROR App:64 - error reading file. Message:  1
+19-01-2019 10:26:12 DEBUG App:46 - 11 row: dfbxbxd
+19-01-2019 10:26:12 ERROR App:64 - error reading file. Message:  1
+19-01-2019 10:26:12 INFO  App:91 - file scrData.csv read succesfully
+19-01-2019 10:26:12 INFO  App:130 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 10:26:12 INFO  App:131 - Average age of all people: 27
+19-01-2019 10:26:12 INFO  App:132 - Number of males: 6
+19-01-2019 10:26:12 INFO  App:133 - Number of females: 1
+19-01-2019 10:26:12 INFO  App:135 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 10:42:51 INFO  App:15 - Starting App
+19-01-2019 10:43:31 INFO  App:15 - Starting App
+19-01-2019 10:46:56 INFO  App:15 - Starting App
+19-01-2019 10:49:08 INFO  App:15 - Starting App
+19-01-2019 10:53:18 INFO  App:15 - Starting App
+19-01-2019 10:53:18 INFO  CsvPersonDataAccess:30 - reading the file: scrData.csv
+19-01-2019 10:53:18 INFO  CsvPersonDataAccess:30 - reading the file: scrData.csv
+19-01-2019 10:55:10 INFO  App:15 - Starting App
+19-01-2019 10:55:10 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Ala,Bzyk,female,27,Paris
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: 
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: dfbxbxd
+19-01-2019 10:55:10 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Ala,Bzyk,female,27,Paris
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: 
+19-01-2019 10:55:10 DEBUG CsvPersonDataAccess:38 - 1 row: dfbxbxd
+19-01-2019 10:56:21 INFO  App:15 - Starting App
+19-01-2019 10:56:21 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 10:56:21 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 10:56:21 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 10:59:57 INFO  App:15 - Starting App
+19-01-2019 10:59:57 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 10:59:57 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 10:59:57 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 10:59:57 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 10:59:57 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 10:59:57 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 10:59:57 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 10:59:57 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 10:59:57 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 10:59:57 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:01:21 INFO  App:15 - Starting App
+19-01-2019 11:01:21 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:01:21 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:01:21 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:01:21 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:01:21 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:01:21 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:01:21 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:01:21 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:01:21 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:01:21 INFO  App:43 - Average age of all people: 27
+19-01-2019 11:01:22 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:02:26 INFO  App:15 - Starting App
+19-01-2019 11:02:26 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:02:26 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:02:26 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:02:26 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:02:26 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:02:26 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:02:26 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:02:26 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:02:26 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:02:26 INFO  App:43 - Average age of all people: 27
+19-01-2019 11:02:26 INFO  App:61 - Number of males: 6
+19-01-2019 11:02:26 INFO  App:62 - Number of females: 1
+19-01-2019 11:02:26 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:07:07 INFO  App:15 - Starting App
+19-01-2019 11:07:07 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:07:07 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:07:07 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:07:07 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:07:07 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:07:07 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:07:07 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:07:07 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:07:07 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:07:07 INFO  App:44 - Average age of all people: 27
+19-01-2019 11:07:07 INFO  App:62 - Number of males: 6
+19-01-2019 11:07:07 INFO  App:63 - Number of females: 1
+19-01-2019 11:07:07 INFO  App:31 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:07:59 INFO  App:15 - Starting App
+19-01-2019 11:07:59 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:07:59 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:07:59 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:07:59 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:07:59 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:07:59 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:07:59 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:07:59 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:07:59 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:07:59 INFO  App:44 - Average age of all people: 27
+19-01-2019 11:07:59 INFO  App:62 - Number of males: 6
+19-01-2019 11:07:59 INFO  App:63 - Number of females: 1
+19-01-2019 11:07:59 INFO  App:31 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:07:59 INFO  App:91 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:09:31 INFO  App:15 - Starting App
+19-01-2019 11:09:31 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:09:31 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:09:31 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:09:31 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:09:31 INFO  CsvPersonDataAccess:63 - file scrData.csv read succesfully
+19-01-2019 11:09:31 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:09:31 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:09:31 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:09:31 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:09:31 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:09:31 INFO  CsvPersonDataAccess:63 - file scrData.csv read succesfully
+19-01-2019 11:09:31 INFO  App:44 - Average age of all people: 27
+19-01-2019 11:09:31 INFO  App:62 - Number of males: 6
+19-01-2019 11:09:31 INFO  App:63 - Number of females: 1
+19-01-2019 11:09:31 INFO  App:31 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:09:31 INFO  App:91 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:10:22 INFO  App:15 - Starting App
+19-01-2019 11:10:22 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:10:22 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:10:22 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:10:22 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:10:22 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:10:22 INFO  CsvPersonDataAccess:63 - file scrData.csv read succesfully
+19-01-2019 11:10:22 INFO  App:44 - Average age of all people: 27
+19-01-2019 11:10:22 INFO  App:62 - Number of males: 6
+19-01-2019 11:10:22 INFO  App:63 - Number of females: 1
+19-01-2019 11:10:22 INFO  App:31 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:10:22 INFO  App:91 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:12:07 INFO  App:15 - Starting App
+19-01-2019 11:12:07 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:12:07 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:12:07 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:12:07 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:12:07 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:12:07 INFO  CsvPersonDataAccess:63 - file scrData.csv read succesfully
+19-01-2019 11:12:07 INFO  App:44 - Average age of all people: 27
+19-01-2019 11:12:07 INFO  App:62 - Number of males: 6
+19-01-2019 11:12:07 INFO  App:63 - Number of females: 1
+19-01-2019 11:12:07 INFO  App:31 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:12:07 INFO  App:91 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:13:41 INFO  App:15 - Starting App
+19-01-2019 11:13:41 INFO  CsvPersonDataAccess:31 - reading the file: scrData.csv
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:13:41 ERROR CsvPersonDataAccess:57 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 10 row: 
+19-01-2019 11:13:41 ERROR CsvPersonDataAccess:57 - error reading row 10. Message: 1
+19-01-2019 11:13:41 DEBUG CsvPersonDataAccess:39 - 11 row: dfbxbxd
+19-01-2019 11:13:41 ERROR CsvPersonDataAccess:57 - error reading row 11. Message: 1
+19-01-2019 11:13:41 INFO  CsvPersonDataAccess:63 - file scrData.csv read succesfully
+19-01-2019 11:13:41 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:13:41 INFO  App:57 - Number of males: 6
+19-01-2019 11:13:41 INFO  App:58 - Number of females: 1
+19-01-2019 11:13:41 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:13:41 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:15:05 INFO  App:15 - Starting App
+19-01-2019 11:15:05 INFO  CsvPersonDataAccess:30 - reading the file: scrData.csv
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:15:05 ERROR CsvPersonDataAccess:50 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 10 row: 
+19-01-2019 11:15:05 ERROR CsvPersonDataAccess:50 - error reading row 10. Message: 1
+19-01-2019 11:15:05 DEBUG CsvPersonDataAccess:38 - 11 row: dfbxbxd
+19-01-2019 11:15:05 ERROR CsvPersonDataAccess:50 - error reading row 11. Message: 1
+19-01-2019 11:15:05 INFO  CsvPersonDataAccess:56 - file scrData.csv read succesfully
+19-01-2019 11:15:05 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:15:05 INFO  App:57 - Number of males: 6
+19-01-2019 11:15:05 INFO  App:58 - Number of females: 1
+19-01-2019 11:15:05 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:15:05 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:50:03 INFO  App:15 - Starting App
+19-01-2019 11:50:03 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:50:03 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:50:03 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:50:03 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:50:03 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:50:03 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:50:03 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:50:03 INFO  App:57 - Number of males: 6
+19-01-2019 11:50:03 INFO  App:58 - Number of females: 1
+19-01-2019 11:50:03 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:50:03 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:50:38 INFO  App:15 - Starting App
+19-01-2019 11:50:38 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:50:38 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:50:38 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:50:38 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:50:38 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:50:38 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:50:38 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:50:38 INFO  App:57 - Number of males: 6
+19-01-2019 11:50:38 INFO  App:58 - Number of females: 1
+19-01-2019 11:50:38 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:50:38 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:51:43 INFO  App:15 - Starting App
+19-01-2019 11:51:43 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:51:43 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:51:43 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:51:43 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:51:43 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:51:43 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:51:43 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:51:43 INFO  App:57 - Number of males: 6
+19-01-2019 11:51:43 INFO  App:58 - Number of females: 1
+19-01-2019 11:51:43 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:51:43 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:52:14 INFO  App:15 - Starting App
+19-01-2019 11:52:14 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:52:14 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:52:14 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:52:14 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:52:14 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:52:14 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:52:14 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:52:14 INFO  App:57 - Number of males: 6
+19-01-2019 11:52:14 INFO  App:58 - Number of females: 1
+19-01-2019 11:52:14 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:52:14 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:54:37 INFO  App:15 - Starting App
+19-01-2019 11:54:37 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:54:37 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:54:37 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:54:37 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:54:37 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:54:37 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:54:37 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:54:37 INFO  App:57 - Number of males: 6
+19-01-2019 11:54:37 INFO  App:58 - Number of females: 1
+19-01-2019 11:54:37 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:54:37 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:55:33 INFO  App:15 - Starting App
+19-01-2019 11:55:33 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:55:33 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:55:33 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:55:33 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:55:33 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:55:33 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:55:33 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:55:33 INFO  App:57 - Number of males: 6
+19-01-2019 11:55:33 INFO  App:58 - Number of females: 1
+19-01-2019 11:55:33 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:55:33 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:58:17 INFO  App:15 - Starting App
+19-01-2019 11:58:17 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:58:17 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:58:17 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:58:17 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:58:17 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:58:17 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:58:17 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:58:17 INFO  App:57 - Number of males: 6
+19-01-2019 11:58:17 INFO  App:58 - Number of females: 1
+19-01-2019 11:58:17 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:58:17 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:59:07 INFO  App:15 - Starting App
+19-01-2019 11:59:07 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:59:07 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:59:07 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:59:07 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:59:07 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:59:07 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:59:07 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:59:07 INFO  App:57 - Number of males: 6
+19-01-2019 11:59:07 INFO  App:58 - Number of females: 1
+19-01-2019 11:59:07 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:59:07 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 11:59:43 INFO  App:15 - Starting App
+19-01-2019 11:59:43 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 11:59:43 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 11:59:43 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 11:59:43 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 11:59:43 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 11:59:43 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 11:59:43 INFO  App:41 - Average age of all people: 27
+19-01-2019 11:59:43 INFO  App:57 - Number of males: 6
+19-01-2019 11:59:43 INFO  App:58 - Number of females: 1
+19-01-2019 11:59:43 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 11:59:43 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:00:10 INFO  App:15 - Starting App
+19-01-2019 12:00:10 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:00:10 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:00:10 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:00:10 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:00:10 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:00:10 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:00:10 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:00:10 INFO  App:57 - Number of males: 6
+19-01-2019 12:00:10 INFO  App:58 - Number of females: 1
+19-01-2019 12:00:10 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:00:10 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:00:23 INFO  App:15 - Starting App
+19-01-2019 12:00:23 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:00:23 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:00:23 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:00:23 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:00:23 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:00:23 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:00:23 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:00:23 INFO  App:57 - Number of males: 6
+19-01-2019 12:00:23 INFO  App:58 - Number of females: 1
+19-01-2019 12:00:23 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:00:23 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:04:00 INFO  App:15 - Starting App
+19-01-2019 12:04:00 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:04:00 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:04:00 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:04:00 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:04:00 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:04:00 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:04:00 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:04:00 INFO  App:57 - Number of males: 6
+19-01-2019 12:04:00 INFO  App:58 - Number of females: 1
+19-01-2019 12:04:00 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:04:00 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:05:06 INFO  App:15 - Starting App
+19-01-2019 12:05:06 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:05:06 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:05:06 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:05:06 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:05:06 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:05:06 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:05:06 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:05:06 INFO  App:57 - Number of males: 6
+19-01-2019 12:05:06 INFO  App:58 - Number of females: 1
+19-01-2019 12:05:06 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:05:06 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:05:20 INFO  App:15 - Starting App
+19-01-2019 12:05:20 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:05:20 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:05:20 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:05:20 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:05:20 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:05:20 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:05:20 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:05:20 INFO  App:57 - Number of males: 6
+19-01-2019 12:05:20 INFO  App:58 - Number of females: 1
+19-01-2019 12:05:20 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:05:20 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:05:46 INFO  App:15 - Starting App
+19-01-2019 12:05:46 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:05:46 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:05:46 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:05:46 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:05:46 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:05:46 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:05:46 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:05:46 INFO  App:57 - Number of males: 6
+19-01-2019 12:05:46 INFO  App:58 - Number of females: 1
+19-01-2019 12:05:46 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:05:46 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:07:52 INFO  App:15 - Starting App
+19-01-2019 12:07:52 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:07:52 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:07:52 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:07:52 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:07:52 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:07:52 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:07:52 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:07:52 INFO  App:57 - Number of males: 6
+19-01-2019 12:07:52 INFO  App:58 - Number of females: 1
+19-01-2019 12:07:52 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:07:52 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:08:50 INFO  App:15 - Starting App
+19-01-2019 12:08:50 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:08:50 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:08:50 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:08:50 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:08:50 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:08:50 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:08:50 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:08:50 INFO  App:57 - Number of males: 6
+19-01-2019 12:08:50 INFO  App:58 - Number of females: 1
+19-01-2019 12:08:50 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:08:50 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:09:45 INFO  App:15 - Starting App
+19-01-2019 12:09:45 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:09:45 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:09:45 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:09:45 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:09:45 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:09:45 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:09:45 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:09:45 INFO  App:57 - Number of males: 6
+19-01-2019 12:09:45 INFO  App:58 - Number of females: 1
+19-01-2019 12:09:45 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:09:45 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:10:42 INFO  App:15 - Starting App
+19-01-2019 12:10:42 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:10:42 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:10:42 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:10:42 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:10:42 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:10:42 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:10:42 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:10:42 INFO  App:57 - Number of males: 6
+19-01-2019 12:10:42 INFO  App:58 - Number of females: 1
+19-01-2019 12:10:42 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:10:42 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:12:46 INFO  App:15 - Starting App
+19-01-2019 12:12:46 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:12:46 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:12:46 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:12:46 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:12:46 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:12:46 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:12:46 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:12:46 INFO  App:57 - Number of males: 6
+19-01-2019 12:12:46 INFO  App:58 - Number of females: 1
+19-01-2019 12:12:46 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:12:46 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:13:08 INFO  App:15 - Starting App
+19-01-2019 12:13:08 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:13:08 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:13:08 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:13:08 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:13:08 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:13:08 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:13:08 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:13:08 INFO  App:57 - Number of males: 6
+19-01-2019 12:13:08 INFO  App:58 - Number of females: 1
+19-01-2019 12:13:08 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:13:08 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:14:26 INFO  App:15 - Starting App
+19-01-2019 12:14:26 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:14:26 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:14:26 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:14:26 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:14:26 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:14:26 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:14:26 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:14:26 INFO  App:57 - Number of males: 6
+19-01-2019 12:14:26 INFO  App:58 - Number of females: 1
+19-01-2019 12:14:26 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:14:26 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:15:27 INFO  App:15 - Starting App
+19-01-2019 12:15:27 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:15:27 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:15:27 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:15:27 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:15:27 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:15:27 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:15:27 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:15:27 INFO  App:57 - Number of males: 6
+19-01-2019 12:15:27 INFO  App:58 - Number of females: 1
+19-01-2019 12:15:27 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:15:27 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:16:50 INFO  App:15 - Starting App
+19-01-2019 12:16:50 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:16:50 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:16:50 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:16:50 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:16:50 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:16:50 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:16:50 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:16:50 INFO  App:57 - Number of males: 6
+19-01-2019 12:16:50 INFO  App:58 - Number of females: 1
+19-01-2019 12:16:50 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:16:50 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:19:40 INFO  App:15 - Starting App
+19-01-2019 12:19:40 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:19:40 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:19:40 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:19:40 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:19:40 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:19:40 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:19:40 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:19:40 INFO  App:57 - Number of males: 6
+19-01-2019 12:19:40 INFO  App:58 - Number of females: 1
+19-01-2019 12:19:40 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:19:40 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:25:52 INFO  App:15 - Starting App
+19-01-2019 12:25:52 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:25:52 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:25:52 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:25:52 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:25:52 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:25:52 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:25:52 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:25:52 INFO  App:57 - Number of males: 6
+19-01-2019 12:25:52 INFO  App:58 - Number of females: 1
+19-01-2019 12:25:52 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:25:52 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:26:17 INFO  App:15 - Starting App
+19-01-2019 12:26:17 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:26:17 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:26:17 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:26:17 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:26:17 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:26:17 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:26:17 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:26:17 INFO  App:57 - Number of males: 6
+19-01-2019 12:26:17 INFO  App:58 - Number of females: 1
+19-01-2019 12:26:17 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:26:17 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:26:54 INFO  App:15 - Starting App
+19-01-2019 12:26:54 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:26:54 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:26:54 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:26:54 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:26:54 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:26:54 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:26:54 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:26:54 INFO  App:57 - Number of males: 6
+19-01-2019 12:26:54 INFO  App:58 - Number of females: 1
+19-01-2019 12:26:54 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:26:54 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
+19-01-2019 12:28:08 INFO  App:15 - Starting App
+19-01-2019 12:28:08 INFO  CsvPersonDataAccess:27 - reading the file: scrData.csv
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 2 row: Jan,Kowalski,male,20,Jaświły
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 3 row: Ala,Bzyk,female,27,Paris
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 4 row: Heniek,Bobek,male,19,Trypucie
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 5 row: Ryszard,Ostry,male,31,Jaświły
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 6 row: Kloszard,Bum,male,44,Trypucie
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 7 row: Marcin,Ilen,18, ŻLE,   Białystok
+19-01-2019 12:28:08 ERROR CsvPersonDataAccess:47 - error reading row 7. Message: For input string: " ŻLE"
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 8 row: Wacław,Kowalski,male,22,Michałowo
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 9 row: Janek,Nowak,male,30,Warszawa
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 10 row: 
+19-01-2019 12:28:08 ERROR CsvPersonDataAccess:47 - error reading row 10. Message: 1
+19-01-2019 12:28:08 DEBUG CsvPersonDataAccess:35 - 11 row: dfbxbxd
+19-01-2019 12:28:08 ERROR CsvPersonDataAccess:47 - error reading row 11. Message: 1
+19-01-2019 12:28:08 INFO  CsvPersonDataAccess:53 - file scrData.csv read succesfully
+19-01-2019 12:28:08 INFO  App:41 - Average age of all people: 27
+19-01-2019 12:28:08 INFO  App:57 - Number of males: 6
+19-01-2019 12:28:08 INFO  App:58 - Number of females: 1
+19-01-2019 12:28:08 INFO  App:30 - Last Names (alphabetical order): [Bobek, Bum, Bzyk, Kowalski, Kowalski, Nowak, Ostry]
+19-01-2019 12:28:08 INFO  App:84 - {Warszawa=MinMaxAge [min=30, max=30], Jaświły=MinMaxAge [min=20, max=31], Michałowo=MinMaxAge [min=22, max=22], Trypucie=MinMaxAge [min=19, max=44], Paris=MinMaxAge [min=27, max=27]}
