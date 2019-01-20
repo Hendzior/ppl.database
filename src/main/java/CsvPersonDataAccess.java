@@ -12,7 +12,7 @@ public class CsvPersonDataAccess implements PersonDataAccess {
 
     private static final Logger logger = LoggerFactory.getLogger(CsvPersonDataAccess.class);
 
-    File file;
+    private File file;
 
     public CsvPersonDataAccess(File file) {
         this.file = file;
@@ -20,7 +20,7 @@ public class CsvPersonDataAccess implements PersonDataAccess {
 
     @Override
     public List<Person> read() {
-        ArrayList<Person> personsList = new ArrayList<>();
+        List<Person> personsList = new ArrayList<>();
 
         Person person;
         int i = 1;
@@ -70,9 +70,9 @@ public class CsvPersonDataAccess implements PersonDataAccess {
                 fw.append(String.valueOf(person.getAge()));
                 fw.append(",");
                 fw.append(person.getCity());
-                fw.flush();
-            }
 
+            }
+            fw.flush();
         } catch (IOException e) {
 
             logger.error("error while writing", e);

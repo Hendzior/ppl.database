@@ -1,25 +1,19 @@
 package main.java;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import java.util.*;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
+public class PeopleStatisticsCalculator {
 
-public class PersonsList {
 
-    private static final Logger logger = LoggerFactory.getLogger(App.class);
     List<Person> personList;
 
-    public PersonsList(List<Person> personList) {
+    public PeopleStatisticsCalculator(List<Person> personList) {
         this.personList = personList;
     }
 
-    public void printLnameAlphabetical() {
+    public List<String> getLnameAlphabetical() {
 
-        ArrayList<String> lNameList = new ArrayList<>();
+       List<String> lNameList = new ArrayList<>();
 
         for (Person person : personList) {
 
@@ -27,10 +21,11 @@ public class PersonsList {
         }
 
         Collections.sort(lNameList);
-        logger.info("Last Names (alphabetical order): {}", lNameList);
+
+        return lNameList;
     }
 
-    public void averagePeopleAge() {
+    public int getAveragePeopleAge() {
         int avgAge;
         int sumAge = 0;
         for (Person person : personList) {
@@ -38,29 +33,38 @@ public class PersonsList {
         }
 
         avgAge = sumAge / personList.size();
-        logger.info("Average age of all people: {}", avgAge);
+
+        return avgAge;
     }
 
-    public void printNoOfMalesFemales() {
+    public int getNoOfMales() {
+
         int noMales = 0;
-        int noFemales = 0;
         for (Person person : personList) {
 
             if (person.getGender().equalsIgnoreCase("male")) {
                 noMales++;
 
-            } else {
+            }
+        }
+
+        return noMales;
+    }
+    public int getNoOfFemales() {
+
+        int noFemales = 0;
+        for (Person person : personList) {
+
+            if (person.getGender().equalsIgnoreCase("female")) {
                 noFemales++;
             }
-
         }
-        logger.info("Number of males: {}", noMales);
-        logger.info("Number of females: {}", noFemales);
 
-    }
+            return noFemales;
+        }
 
-    public HashMap<String, MinMaxAge> findMinAndMaxAgeForCities() {
-        HashMap<String, MinMaxAge> minMaxAgeForCities = new HashMap<>();
+    public Map<String, MinMaxAge> getMinAndMaxAgeForCities() {
+        Map<String, MinMaxAge> minMaxAgeForCities = new HashMap<>();
         MinMaxAge minMaxAge;
 
         for (Person person : personList) {
@@ -81,7 +85,7 @@ public class PersonsList {
 
             }
         }
-        logger.info(String.valueOf(minMaxAgeForCities));
+
         return minMaxAgeForCities;
     }
 }
