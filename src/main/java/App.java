@@ -22,10 +22,8 @@ public class App {
 
         logger.info("Last Names (alphabetical order): {}", personsList.getLnameAlphabetical());
         logger.info("Average age of all people: {}", personsList.getAveragePeopleAge());
-
         logger.info("Number of females: {}", personsList.getNoOfFemales());
         logger.info("Number of males: {}", personsList.getNoOfMales());
-        //logger.info(String.valueOf(personsList.findMinAndMaxAgeForCities()));
         logger.info("Min and max age for all cities: {}", personsList.getMinAndMaxAgeForCities());
 
 
