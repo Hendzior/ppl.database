@@ -58,7 +58,9 @@ public class CsvPersonDataAccess implements PersonDataAccess {
     public void write (List<Person> list) {
         logger.info("writing the file: {}", file);
         try (FileWriter fw = new FileWriter(file,true))
+
         {
+            fw.append("first name,last name,gender,age,city");
             for(Person person: list) {
                 fw.append("\n");
                 fw.append(person.getFirstName());

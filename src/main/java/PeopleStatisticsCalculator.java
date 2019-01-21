@@ -13,7 +13,7 @@ public class PeopleStatisticsCalculator {
 
     public List<String> getLnameAlphabetical() {
 
-       List<String> lNameList = new ArrayList<>();
+        List<String> lNameList = new ArrayList<>();
 
         for (Person person : personList) {
 
@@ -50,6 +50,7 @@ public class PeopleStatisticsCalculator {
 
         return noMales;
     }
+
     public int getNoOfFemales() {
 
         int noFemales = 0;
@@ -60,8 +61,8 @@ public class PeopleStatisticsCalculator {
             }
         }
 
-            return noFemales;
-        }
+        return noFemales;
+    }
 
     public Map<String, MinMaxAge> getMinAndMaxAgeForCities() {
         Map<String, MinMaxAge> minMaxAgeForCities = new HashMap<>();

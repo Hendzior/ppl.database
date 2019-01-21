@@ -4,8 +4,8 @@ import java.util.List;
 
 public interface PersonDataAccess {
 
-   List<Person> read();
+    List<Person> read();
 
-   void write(List<Person> list);
+    void write(List<Person> list);
 
 }
