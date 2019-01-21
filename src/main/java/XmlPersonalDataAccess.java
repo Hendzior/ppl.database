@@ -49,19 +49,21 @@ public class XmlPersonalDataAccess implements PersonDataAccess {
             for (int s = 0; s < totalPersons; s++) {
 
 
-                Node firstPersonNode = listOfpersons.item(s);
-                Element firstPersonElement = (Element) firstPersonNode;
+                Node PersonNode = listOfpersons.item(s);
+                Element personElement = (Element) PersonNode;
 
                 person = new Person();
-                person.setFirstName(xmlRead("first-name", firstPersonElement));
-                person.setLastName(xmlRead("last-name", firstPersonElement));
-                person.setGender(xmlRead("gender", firstPersonElement));
-                person.setAge(Integer.parseInt(xmlRead("age", firstPersonElement)));
-                person.setCity(xmlRead("city", firstPersonElement));
+                person.setFirstName(readXmlTagValue("first-name", personElement));
+                person.setLastName(readXmlTagValue("last-name", personElement));
+                person.setGender(readXmlTagValue("gender", personElement));
+                person.setAge(Integer.parseInt(readXmlTagValue("age", personElement)));
+                person.setCity(readXmlTagValue("city", personElement));
                 personsList.add(person);
                 logger.debug("{} row: {}", s, person);
+
             }
 
+            logger.info("file {} read succesfully", file);
         } catch (SAXParseException err) {
             logger.error("error reading row {}. Message: {}", err.getMessage());
             logger.error("** Parsing error" + ", line "
@@ -73,11 +75,11 @@ public class XmlPersonalDataAccess implements PersonDataAccess {
         } catch (Throwable t) {
             logger.error("error while reading", t);
         }
-        logger.info("file {} read succesfully", file);
+
         return personsList;
     }
 
-    public String xmlRead(String str, Element firstPersonElement) {
+    public String readXmlTagValue(String str, Element firstPersonElement) {
 
         NodeList firstNameList = firstPersonElement.getElementsByTagName(str);
         Element firstNameElement = (Element) firstNameList.item(0);
@@ -103,11 +105,11 @@ public class XmlPersonalDataAccess implements PersonDataAccess {
                 Element person = document.createElement("person");
                 rootElement.appendChild(person);
 
-                person.appendChild(readXmlTagValue("first-name", pers.getFirstName(), document));
-                person.appendChild(readXmlTagValue("last-name", pers.getLastName(), document));
-                person.appendChild(readXmlTagValue("gender", pers.getGender(), document));
-                person.appendChild(readXmlTagValue("age", String.valueOf(pers.getAge()), document));
-                person.appendChild(readXmlTagValue("city", pers.getCity(), document));
+                person.appendChild(writeXmlTagValue("first-name", pers.getFirstName(), document));
+                person.appendChild(writeXmlTagValue("last-name", pers.getLastName(), document));
+                person.appendChild(writeXmlTagValue("gender", pers.getGender(), document));
+                person.appendChild(writeXmlTagValue("age", String.valueOf(pers.getAge()), document));
+                person.appendChild(writeXmlTagValue("city", pers.getCity(), document));
 
             }
 
@@ -119,6 +121,8 @@ public class XmlPersonalDataAccess implements PersonDataAccess {
             StreamResult result = new StreamResult(new File(String.valueOf(file)));
             transformer.transform(source, result);
 
+            logger.info("file {} write succesfully", file);
+
         } catch (ParserConfigurationException pce) {
             logger.error("error writing file {}. " + file + "Message: {}", pce.getMessage());
 
@@ -127,11 +131,11 @@ public class XmlPersonalDataAccess implements PersonDataAccess {
 
         }
 
-        logger.info("file {} write succesfully", file);
+
 
     }
 
-    public Element readXmlTagValue(String name, String value, Document document) {
+    public Element writeXmlTagValue(String name, String value, Document document) {
 
         Element fName = document.createElement(name);
         fName.appendChild(document.createTextNode(value));
