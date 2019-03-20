@@ -1,9 +1,9 @@
+package main.java;
+
 public class MinMaxAge {
 
 	int min;
 	int max;
-	
-	
 	
 	@Override
 	public String toString() {
@@ -21,7 +21,6 @@ public class MinMaxAge {
 	public void setMax(int max) {
 		this.max = max;
 	}
-	
-	
-	
 }
+
+
